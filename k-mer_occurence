@@ -9,4 +9,4 @@ def inpu():
 # by solving this formula we will get the no of k-mer grps we will get in output
     for i in range(len(sequence) - kmer + 1):
         print(i,sequence[i:i + kmer])
-inpu()
+inpu() 
