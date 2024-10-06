@@ -1,5 +1,3 @@
-#find occurence of k-mers in a sequence
-
 def inpu():
     sequence=("atgtatgtagaca").upper()
     kmer=int(input("enter your k-mer:"))
