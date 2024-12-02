@@ -6,5 +6,5 @@ This respository consist of few set of python codes which is used in bioinformat
 
 3. The Python script (k-mer_occurence) allows users to extract and analyze k-mers (subsequences of length k) from a given DNA sequence. This is useful for identifying recurring patterns, analyzing genetic motifs, and studying sequence complexity in biological data.
 
-4. The Python script (Reverse_Complement_DNA) required in various bioinformatics analyses, such as primer design and sequence alignment. As DNA is double stranded and shares complimentary base pairing with corresponding nucleotide hence it is necessary to study reverse complement .
+4. The Python script (Complement_DNA) required in various bioinformatics analyses, such as primer design and sequence alignment. As DNA is double stranded and shares complimentary base pairing with corresponding nucleotide hence it is necessary to study complement .
 
