@@ -1,7 +1,7 @@
 def inpu():
     dna_seq = input("Enter your dna sequence:").upper()
     print("the dna sequence is :",dna_seq)
-    print("the reverse complement of dna sequence is:")
+    print("the complement of dna sequence is:")
     for nucleotide in dna_seq:
         if nucleotide == "A":
             print("T",end = "")
