@@ -1,4 +1,4 @@
-def inpu():
+def compl_dna():
     dna_seq = input("Enter your dna sequence:").upper()
     print("the dna sequence is :",dna_seq)
     print("the complement of dna sequence is:")
@@ -13,4 +13,4 @@ def inpu():
             print("G",end="")
         else:
             print("N",end="") 
-inpu()
+compl_dna()
