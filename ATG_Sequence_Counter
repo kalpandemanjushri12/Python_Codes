@@ -1,0 +1,23 @@
+# Initialize a counter variable
+count = 0
+
+# Open the FASTA file in read mode
+with open("file.fasta") as f:
+
+    # Read the file line by line
+    for line in f:
+
+        # Remove extra spaces or newline characters
+        line = line.strip()
+
+        # Skip header lines that start with ">"
+        if not line.startswith(">"):
+
+            # Check if the sequence starts with "ATG"
+            if line.startswith("ATG"):
+
+                # Increase the count by 1
+                count += 1
+
+# Print the final count
+print("Number of sequences starting with ATG:", count)
