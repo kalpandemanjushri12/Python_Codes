@@ -6,3 +6,5 @@ This respository consist of few set of python codes which is used in bioinformat
 
 3. The Python script (Complement_DNA) required in various bioinformatics analyses, such as primer design and sequence alignment. As DNA is double stranded and shares complimentary base pairing with corresponding nucleotide hence it is necessary to study complement .
 
+4. A Python script to parse a FASTA file and count the number of sequences starting with the ATG start codon to verify the annotated mitochondrial genes are valid.
+
